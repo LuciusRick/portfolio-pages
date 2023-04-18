@@ -42,6 +42,8 @@ header{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
     background-image: linear-gradient(to bottom, var(--cor03),var(--cor04),var(--cor05));
+    display: flex;
+    flex-direction: column;
 }
 
 header h1{
@@ -53,12 +55,13 @@ header p{
     padding: 15px;
 }
 
-nav{
+header nav{
     margin-right: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     display: flex;
     justify-content: start;
     font-family: var(--font-padrao);
+    background-color: var(--cor05);
     color: var(--cor01);
     gap: 10px;
 }
@@ -93,7 +96,7 @@ main img{
 }
 
 main img .pequena{
-    max-width: 350px;
+    min-width: 350px;
     display: block;
     margin: auto;
 }
