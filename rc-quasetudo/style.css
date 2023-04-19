@@ -90,19 +90,15 @@ main{
 }
 
 #pintura{
-    background-image: url('imagens/pintura.jpeg');
-    background-size: cover; 
-    background-position:center center;
+   width: 400px;
 }
 
 #armario{
-    background-image: url('imagens/montando-armario.jpg');
-    background-size:cover;
-    background-position:center center;
+    background: black url('imagens/armario-parede.jpg') center center no-repeat;
+    background-size: cover;
 }
 
 #install-painel{
-    background-image: url('imagens/painel-tv.jpg');
+    background: black url('imagens/painel-tv.jpg') center center no-repeat;
     background-size: cover;
-    background-position:center center;
 }
