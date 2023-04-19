@@ -90,12 +90,16 @@ main{
 
 #pintura{
     background-image: url('imagens/pintura.jpeg');
+    background-size: 110%; 
+    
 }
 
 #armario{
     background-image: url('imagens/montando-armario.jpg');
+    background-size: 100%;
 }
 
 #install-painel{
     background-image: url('imagens/painel-tv.jpg');
+    background-size: 100%;
 }
