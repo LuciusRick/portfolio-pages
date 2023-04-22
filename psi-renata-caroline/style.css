@@ -48,13 +48,22 @@ header h1{
 }
 
 header a{
+    padding: 10px;
     color: var(--color01);
     gap:20px;
 }
 
 header a:hover{
+    padding: 10px;
     color: var(--color04);
     text-shadow: var(--color02);
+    background-color: var(--color05);
+    border-radius: 5px;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main{
@@ -67,11 +76,6 @@ main{
     flex-direction: column;
     text-align: center;
     height: 100%vh;
-}
-
-main nav{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 main img{
