@@ -20,8 +20,7 @@
 }
 
 body{
-    background: rgb(238,174,202);
-    background: linear-gradient(3deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: linear-gradient(0deg,rgb(243, 119, 173), rgba(238,174,202,1), rgba(148,187,233,1));
 }
 
 header{
@@ -59,7 +58,7 @@ header a:hover{
 }
 
 main{
-    max-width: 800px;
+    max-width: 700px;
     min-width: 350px;
     margin: auto;
     margin-bottom: 15px;
@@ -81,6 +80,7 @@ main article{
     border-radius: 0px 0px 10px 10px;
     font-family: var(--fonte-padrao);
     font-size: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
 }
 
 article h2{
