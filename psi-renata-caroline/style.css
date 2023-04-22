@@ -1,6 +1,40 @@
 @charset 'UTF-8';
 
 :root{
-    --color:white;
-    
+    --color01:white;
+    --color02:black;
+    --color03:#eeaeca;
+    --color04:#94bbe9 ;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: Impact, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(3deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+header{
+    display: flex;
+    font-family: var(--fonte-padrao);
+    color: var(--color01);
+}
+
+main{
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    margin-top:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
