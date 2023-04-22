@@ -26,6 +26,7 @@ header{
     align-items: center;
     justify-content: space-around;
     background-color: black;
+    text-shadow: 1px 1px 2px gray;
     row-gap: 5px;
 }
 
@@ -42,4 +43,40 @@ header nav a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    gap: 5px;
+}
+
+a:hover{
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #cfcfcf;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    row-gap:10px;
+}
+
+main{
+    max-width: 1200px;
+    min-width: 400px;
+    text-align: center;
+}
+
+.sec01{
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    background-color: #cfcfcf;
+}
+
+.sec02{
+    display: flex;
+    margin: auto;
+    background-color: #029c4f;
+    gap: 20px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #b9fada;
+    border-radius:10px;
 }
