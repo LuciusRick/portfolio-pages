@@ -69,6 +69,11 @@ main{
     height: 100%vh;
 }
 
+main nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main img{
     width: 100%;
 }
