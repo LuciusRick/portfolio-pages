@@ -29,7 +29,6 @@ header{
     justify-content: space-around;
     background-color:var(--color05);
     text-shadow: 1px 1px 2px gray;
-    row-gap: 5px;
 }
 
 header img{
@@ -40,14 +39,18 @@ header img{
 header h1{
     color: white;
     font-size: 4vw;
+    padding:10px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
 }
 
 header nav a{
-    display: flex;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    gap: 5px;
 }
 
 nav a:hover{
@@ -55,53 +58,33 @@ nav a:hover{
 }
 
 header nav p{
+    display: block;
     color: white;
     font-family: Arial, Helvetica, 
 }
 
 main{
-    min-height: 75vh;
-    max-width: 1200px;
-    min-width: 350px;
     text-align: center;
 }
 
 .sec01{
-    margin:auto;
     padding: 10px;
     background-color: #cfcfcf;
 }
 
 .sec02{
-    margin: auto;
-    padding: 30px;
-    max-width: 96vwx;
-    min-width: 96vw;
-    max-height: 96vh;
-    min-height: 96vh;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    font-size: 1em;
-    gap: 30px;
+    min-height: 600px;
     background-image: url('imagens/akc-prod.jpg');
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    gap: 10px;
 }
 
 .box{
-    margin: auto;
-    padding: 10px;
-    max-width: 300px;
-    max-height: 300px;
-    min-width: 100px;
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    max-width: 200px;
+    min-width: 150px;
     background-color: #b4ffda;
     border-radius:10px;
     text-shadow: 0px 0px 3px rgb(255, 255, 255) ;
