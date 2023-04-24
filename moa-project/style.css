@@ -75,13 +75,22 @@ main{
 .sec02{
     margin: auto;
     padding: 30px;
+    max-width: 96vwx;
+    min-width: 96vw;
+    max-height: 96vh;
+    min-height: 96vh;
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     font-size: 1em;
-    gap: 30px
+    gap: 30px;
+    background-image: url('imagens/akc-prod.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .box{
@@ -95,7 +104,7 @@ main{
     flex-direction: column;
     background-color: #b4ffda;
     border-radius:10px;
-    text-shadow: 1px 1px 0px rgb(0, 68, 17) ;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255) ;
     box-shadow: 10px 10px 0px black;
     font-family: Arial, Helvetica, sans-serif;
 }
