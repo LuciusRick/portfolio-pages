@@ -29,6 +29,7 @@ header{
     background-color: var(--air-force-blue);
     font-family: var(--font-destaque);
     color: white;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -36,7 +37,12 @@ header img{
     width: 50px;
 }
 
+header h1{
+    font-size: 4vw;
+}
+
 header a{
+    font-size: 3vw;
     color: white;
     text-decoration: none;
 }
@@ -47,58 +53,52 @@ header a:hover{
 }
 
 main{
-    background-color: var(--flax);
-    gap: 20px;
-}
-
-.section1, .section2{
-    margin: auto;
-    padding-top: 10px;
-    padding: 15px;
-    max-width: 1000px;
-    min-width: 400px;
-    text-align: center;
-    background-color: var(--azul-medio);
+    display: flex;
+    flex-direction: column;
 }
 
 .section1{
-    font-size: 2em;
     font-family: var(--font-destaque);
     color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--azul-medio);
 }
 
 .section2{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    margin: auto;
+    text-align: center;
 }
 
 .section2 h2{
-    color: rgb(165, 0, 0);
-    background-color: rgb(142, 219, 255);
-    border-radius: 10px 10px 0px 0px ;
-    font-family: var(--font-texto);
-}
-
-.square{
-    border: 2px solid rgb(202, 0, 0);
-    border-radius: 10px;
-    max-width: 1200px;
-    min-width:400px;
-    max-height:600px;
-    min-height: 300px;
+    font-family: var(--font-destaque);
+    color: white;
+    background-color: black;
 }
 
 #pintura{
-   width: 400px;
+    max-width: 1000px;
+    min-width: 400px;
+    max-height: 500px;
+    min-height: 200px;
+    background: black url('imagens/pintura.jpeg') center center no-repeat;
+    background-size: cover;
 }
 
 #armario{
+    max-width: 1000px;
+    min-width: 400px;
+    max-height: 500px;
+    min-height: 200px;
     background: black url('imagens/armario-parede.jpg') center center no-repeat;
     background-size: cover;
 }
 
 #install-painel{
+    max-width: 1000px;
+    min-width: 400px;
+    max-height: 500px;
+    min-height: 200px;
     background: black url('imagens/painel-tv.jpg') center center no-repeat;
     background-size: cover;
 }
