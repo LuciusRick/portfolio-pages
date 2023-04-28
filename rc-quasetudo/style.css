@@ -66,39 +66,44 @@ main{
 }
 
 .section2{
-    margin: auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: none;
+    width: 1000px;
 }
 
-.section2 h2{
+.square{
+    max-width: 1000px;
+    min-width: 300px;
+    max-height: 600px;
+    min-height: 400px;
+    padding:10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
     font-family: var(--font-destaque);
     color: white;
     background-color: black;
 }
 
 #pintura{
-    max-width: 1000px;
-    min-width: 400px;
-    max-height: 500px;
-    min-height: 200px;
-    background: black url('imagens/pintura.jpeg') center center no-repeat;
-    background-size: cover;
+    background-image:url('imagens/pintura.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #armario{
-    max-width: 1000px;
-    min-width: 400px;
-    max-height: 500px;
-    min-height: 200px;
-    background: black url('imagens/armario-parede.jpg') center center no-repeat;
-    background-size: cover;
+    background: black url('imagens/armario-parede.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #install-painel{
-    max-width: 1000px;
-    min-width: 400px;
-    max-height: 500px;
-    min-height: 200px;
-    background: black url('imagens/painel-tv.jpg') center center no-repeat;
-    background-size: cover;
+    background: black url('imagens/painel-tv.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
