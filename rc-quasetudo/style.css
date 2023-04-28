@@ -63,7 +63,7 @@ header a:hover{
 section{
     max-width: 1000px;
     min-width: 300px;
-    height: 650px;
+    height: 600px;
     padding:10px;
     margin: auto;
     padding: 20px;
@@ -74,9 +74,15 @@ section{
 }
 
 .text-box{
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    background-color: black;
     background-color: rgba(0, 108, 248, 0.349);
     border-radius: 10px;
+    line-height: 2em;
 }
 
 #pintura{
@@ -84,7 +90,7 @@ section{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center bottom;
+    background-position: center center;
 }
 
 #armario{
