@@ -73,7 +73,7 @@ main{
     width: 1000px;
 }
 
-.square{
+section{
     max-width: 1000px;
     min-width: 300px;
     max-height: 600px;
@@ -88,21 +88,20 @@ main{
 }
 
 #pintura{
-    background-image:url('imagens/pintura.jpeg');
+    background-image:url('imagens/armario01.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #armario{
-    background: black url('imagens/armario-parede.jpg');
+    background-image: url('imagens/armario01.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #install-painel{
-    background: black url('imagens/painel-tv.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
