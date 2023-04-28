@@ -63,8 +63,7 @@ header a:hover{
 section{
     max-width: 1000px;
     min-width: 300px;
-    max-height: 600px;
-    min-height: 400px;
+    height: 650px;
     padding:10px;
     margin: auto;
     padding: 20px;
@@ -93,6 +92,7 @@ section{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center bottom;
 }
 
 #install-painel{
@@ -100,4 +100,5 @@ section{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: left bottom;
 }
