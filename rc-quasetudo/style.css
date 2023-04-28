@@ -52,25 +52,12 @@ header a:hover{
     text-decoration: underline;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-}
-
 .section1{
     font-family: var(--font-destaque);
     color: white;
     text-align: center;
     padding: 20px;
     background-color: var(--azul-medio);
-}
-
-.section2{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    border: none;
-    width: 1000px;
 }
 
 section{
@@ -87,11 +74,18 @@ section{
     background-color: black;
 }
 
+.text-box{
+    padding: 10px;
+    background-color: rgba(0, 108, 248, 0.349);
+    border-radius: 10px;
+}
+
 #pintura{
-    background-image:url('imagens/armario01.jpg');
+    background-image:url('imagens/janela01.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center bottom;
 }
 
 #armario{
@@ -102,6 +96,7 @@ section{
 }
 
 #install-painel{
+    background-image: url('imagens/forro01.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
