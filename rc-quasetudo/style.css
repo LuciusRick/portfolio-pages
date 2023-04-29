@@ -7,6 +7,7 @@
     --azul-medio: #91aec1ff;
     --air-force-blue: #508ca4ff;
     --black-olive: #1f271bff;
+    --azulforte: #006cf8;
     --flax: #f5dd90ff;
 
     --font-destaque: 'Bebas Neue', 'cursive';
@@ -26,7 +27,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    background-color: var(--air-force-blue);
+    background-color: var(--azulforte);
     font-family: var(--font-destaque);
     color: white;
     padding-top: 20px;
@@ -52,25 +53,24 @@ header a:hover{
     text-decoration: underline;
 }
 
-.section1{
-    font-family: var(--font-destaque);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    background-color: var(--azul-medio);
-}
-
 section{
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 300px;
     height: 600px;
-    padding:10px;
     margin: auto;
-    padding: 20px;
     text-align: center;
     font-family: var(--font-destaque);
     color: white;
     background-color: black;
+    box-shadow: inset 0px 5px 3px rgba(0, 0, 0, 0.555);
+}
+
+.text-box h2{
+    text-shadow: 3px 2px 0px rgba(0, 0, 37, 0.801);
+}
+
+.text-box p{
+    text-shadow: 1px 2px 0px rgba(0, 0, 37, 0.801);
 }
 
 .text-box{
@@ -78,11 +78,11 @@ section{
     text-align: center;
     color: white;
     font-family: var(--font-destaque);
-    font-size: 2em;
+    font-size: 6vw;
     background-color: black;
-    background-color: rgba(0, 108, 248, 0.349);
-    border-radius: 10px;
-    line-height: 2em;
+    background-color: #006cf8;
+    box-shadow:0px 5px 3px rgba(0, 0, 0, 0.555);
+    line-height: 1.5em;
 }
 
 #pintura{
@@ -98,7 +98,7 @@ section{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center bottom;
+    background-position: right top;
 }
 
 #install-painel{
