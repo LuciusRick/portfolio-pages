@@ -73,17 +73,14 @@ main{
 }
 
 .sec02{
-    min-height: 600px;
     background-image: url('imagens/akc-prod.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    gap: 10px;
 }
 
 .box{
-    display: block;
-    max-width: 200px;
+    max-width: 300px;
     min-width: 150px;
     background-color: #b4ffda;
     border-radius:10px;
@@ -151,6 +148,14 @@ button:hover, button a:hover{
 
 .menu-itens{
     background-color: #029c4f;
+}
+
+.itens1:hover{
+    display: flex;
+}
+
+.itens1{
+    display: none;
 }
 
 .menu-itens img{
