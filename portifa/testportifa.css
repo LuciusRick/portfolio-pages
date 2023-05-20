@@ -13,7 +13,12 @@ body{
 }
 
 main{
+    width: 90vw;
+    height: 95vh;
+}
+
+section{
     position: relative;
     
-    background: url(imagens/tabua-sobre-isolado.jpg);
+    background: white url(imagens/tabua-sobre-isolado.png);
 }
