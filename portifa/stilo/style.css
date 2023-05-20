@@ -16,6 +16,8 @@ body{
 header{
     text-align: center;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 header p{
@@ -24,24 +26,53 @@ header p{
 
 main{
     width: 100vw;
-    height: 80vh;
-}
-
-footer{
     text-align: center;
-    padding: 10px;
 }
 
 iframe{
+    margin: 15px;
     border-radius: 10px;
-    width: 400px;
-    height: 200px;
-    margin: 10px;
+    height: 250px;
+    box-shadow: 1px 1px 10px black;
 }
 
 iframe:hover{
+    margin: 15px;
     border-radius: 10px;
-    width: 600px;
+    width: 450px;
     height: 300px;
-    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+    transition: .6s;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer a{
+    font-weight: bolder;
+    color: white;
+}
+
+footer a:hover{
+    position: fixed;
+    color: red;
+    text-decoration: underline;
+}
+
+#menu{
+    
+}
+
+#link{
+    text-align: right;
+}
+
+#link img{
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
 }

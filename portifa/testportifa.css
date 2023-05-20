@@ -1,0 +1,13 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background:black url(imagens/cimento-queimado.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
