@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+header p{
+    padding: 10px;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
+
+iframe:hover{
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+}
