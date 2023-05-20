@@ -11,3 +11,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+main{
+    position: relative;
+    
+    background: url(imagens/tabua-sobre-isolado.jpg);
+}
